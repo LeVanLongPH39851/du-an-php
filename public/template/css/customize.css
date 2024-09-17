@@ -1,0 +1,227 @@
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+input::placeholder,
+textarea::placeholder {
+    font-size: 13px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.mb1 {
+    margin-bottom: 1px;
+}
+.table > thead tr > th,
+.table > tbody tr > th,
+.table > tfoot tr > th,
+.table > thead tr > td,
+.table > tbody tr > td,
+.table > tfoot tr > td {
+    vertical-align: middle;
+}
+.uk-flex-space-between {
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.uk-flex-middle {
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.uk-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.filter-wrapper {
+    margin-bottom: 20px;
+}
+.filter-wrapper .perpage {
+    display: inline-block;
+}
+.btn {
+    margin-bottom: 0 !important;
+    font-size: 13px;
+    border-radius: 0;
+    height: 32px;
+}
+.filter-wrapper .form-control {
+    height: 32px;
+    max-width: 200px;
+    font-size: 13px;
+}
+.mr5 {
+    margin-right: 5px;
+}
+.mb0 {
+    margin-bottom: 0;
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.box .ibox {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.control-lable {
+    display: block;
+}
+.panel-title {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+.panel-description {
+    font-size: 15px;
+}
+
+.select2-container .select2-selection--single {
+    height: 32px !important;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition-property: color, -webkit-box-shadow;
+    transition-property: box-shadow, color;
+    transition-property: box-shadow, color, -webkit-box-shadow;
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(63, 63, 68, 0.05);
+    box-shadow: inset 0 1px 0 0 rgba(63, 63, 68, 0.05);
+    border: 1px solid #c4cdd5;
+    outline: none;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#fff),
+        to(#f9fafb)
+    );
+    background: linear-gradient(to bottom, #fff, #f9fafb);
+    border-color: #c4cdd5;
+}
+
+.select2-container--default
+    .select2-selection--single
+    .slect2-selection__rendered {
+    line-height: 31px !important;
+    font-size: 13px;
+}
+/* .form-control {
+    height: 31px;
+} */
+
+.is-invalid {
+    border-color: #dc3545 !important; /* Màu viền đỏ */
+    padding-right: calc(1.5em + 0.75rem); /* Tạo không gian cho icon nếu có */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linecap='round' d='M6 3v3'/%3e%3ccircle cx='6' cy='8' r='.5' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
+}
+
+.wrapper-content {
+    padding: 20px 0 40px;
+}
+
+.Order-Detail-Product-Name:hover {
+    text-decoration: underline;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.custom-file-input {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    /* color: #495057; */
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e5e6e7;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.custom-file-input[type="file"]::-webkit-file-upload-button {
+    padding: 5.5px;
+    margin-right: 0.75rem;
+    background-color: #1c84c6;
+    color: #fff;
+    border: 1px solid #1c84c6;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.custom-file-album[type="file"]::-webkit-file-upload-button {
+    padding: 20px;
+}
+
+.custom-file-input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #1a7bb9;
+    border-color: #1a7bb9;
+}
+
+.custom-file-input[type="file"]::-webkit-file-upload-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(26, 123, 185, 0.25);
+}
+.file-upload-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 400px; /* Đặt chiều cao cho wrapper để căn giữa dọc */
+    background-color: #f8f9fa; /* Màu trắng xám */
+    border: 2px solid #ced4da; /* Border cũ */
+    border-radius: 5px;
+}
+
+.file-slides {
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Ẩn thẻ input thực sự */
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.file-upload-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa; /* Màu trắng xám */
+    color: #495057; /* Màu chữ xám đậm */
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.file-upload-label:hover {
+    background-color: #e9ecef; /* Màu trắng xám đậm hơn khi hover */
+    color: #343a40; /* Màu chữ đậm hơn khi hover */
+}
+
+.file-upload-wrapper input:focus + .file-upload-label {
+    outline: none;
+    box-shadow: 0 0 10px #adb5bd; /* Màu xám nhạt cho shadow khi focus */
+}
+#content + .ck-editor .ck-editor__editable {
+    min-height: 250px; /* Đặt chiều cao mong muốn ở đây */
+}
